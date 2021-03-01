@@ -2,14 +2,13 @@
 
 ## About
 
-Just a simple storybook example. This is me checking out [storybook](https://storybook.js.org/). This is just a button with a few differing styles.
+Just a simple Storybook example. This is me checking out [Storybook](https://storybook.js.org/). This is just a button with a few differing styles.
 
-You can load up the mostly defualt react app and see a terrible looking button was added.
+You can load up the mostly default React app and see a terrible looking button was added.
 
-Loading up storybook shows the same button component but isolated from the rest of the app.
+Loading up Storybook shows the same button component but isolated from the rest of the app.
 
-in /components editing the style.css will change the button for the story and the one in App.js
-
+Editing `components/style.css` will change the button for the story and the one in `App.js`.
 
 ## Use
 
