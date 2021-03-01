@@ -1,0 +1,14 @@
+.prime {
+  padding: 20px;
+  background-color: blue;
+  }
+.second {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: red;
+  }
+  .third {
+    padding: 20px;
+    border-radius: 25px;
+    background-color:#ffb6c1;
+  }
