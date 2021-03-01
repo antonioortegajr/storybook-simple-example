@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Input from './components/input/input';
 import Button from './components/Button';
 
 function App() {
