@@ -8,7 +8,7 @@ Just a simple storybook example. This is me checking out [storybook](https://sto
 
 ## Use
 
-git clone
-npm install
-npm start for react
-npm start storybook to start storybook
+`git clone`
+`yarn install`
+`yarn start` for react
+`yarn run storybook` to start storybook
