@@ -10,6 +10,11 @@ Loading up Storybook shows the same button component but isolated from the rest 
 
 Editing `components/style.css` will change the button for the story and the one in `App.js`.
 
+## Required
+
+* node installed
+* yarn installed
+
 ## Use
 
 `git clone`
