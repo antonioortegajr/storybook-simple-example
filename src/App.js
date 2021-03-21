@@ -1,12 +1,12 @@
 import './App.css';
-import Card from './components/Molecules/Card';
+import AlertCard from './components/Molecules/AlertCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div>
-        <Card class="card-dark" />
+        <AlertCard class="card-dark" />
       </div>
       </header>
     </div>
