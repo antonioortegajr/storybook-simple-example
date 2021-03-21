@@ -1,28 +1,26 @@
 import React from 'react';
+import Input from './Input';
 
-import Button from './Button';
+// Input variations below coraspond to classes in .css
 
 export default {
-  component: Button,
-  title: 'Buttons',
+  component: Input,
+  title: 'Inputs',
 };
 
-const Template = args => <Button {...args} />;
+const Template = args => <Input {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-    txt: 'Test Button',
     class: 'prime',
 };
 
 export const Second  = Template.bind({});
 Second.args = {
-    txt: 'Second Test Button',
     class: "second"
 };
 
 export const Third  = Template.bind({});
 Third.args = {
-    txt: 'Third Test Button',
     class: "third"
 };
