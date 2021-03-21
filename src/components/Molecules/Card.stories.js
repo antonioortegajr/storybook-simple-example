@@ -14,7 +14,7 @@ export const Default = Template.bind({});
 Default.args = {
     class: 'card',
 };
-export const Second  = Template.bind({});
-Second.args = {
+export const Dark  = Template.bind({});
+Dark.args = {
     class: "card-dark"
 };
