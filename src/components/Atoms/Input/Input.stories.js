@@ -5,7 +5,16 @@ import Input from './Input';
 
 export default {
   component: Input,
-  title: 'Inputs',
+  title: 'Design System/Atoms/Inputs',
+  parameters: {
+    docs: {
+      page: () => (
+        <>
+          <div>Test</div>
+        </>
+      ),
+    },
+}
 };
 
 const Template = args => <Input {...args} />;

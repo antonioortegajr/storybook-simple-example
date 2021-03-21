@@ -5,7 +5,7 @@ import Card from './Card';
 
 export default {
   component: Card,
-  title: 'Card',
+  title: 'Design System/Molecules/Card',
 };
 
 const Template = args => <Card {...args} />;

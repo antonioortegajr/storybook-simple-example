@@ -5,7 +5,7 @@ import Button from './Button';
 
 export default {
   component: Button,
-  title: 'Buttons',
+  title: 'Design System/Atoms/Buttons',
 };
 
 const Template = args => <Button {...args} />;
