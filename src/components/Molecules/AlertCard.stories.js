@@ -1,14 +1,14 @@
 import React from 'react';
-import Card from './Card';
+import AlertCard from './AlertCard';
 
 // button variations below coraspond to classes in .css
 
 export default {
-  component: Card,
-  title: 'Design System/Molecules/Card',
+  component: AlertCard,
+  title: 'Design System/Molecules/AlertCard',
 };
 
-const Template = args => <Card {...args} />;
+const Template = args => <AlertCard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
