@@ -2,13 +2,17 @@
 
 ## About
 
-Just a simple Storybook example. This is me checking out [Storybook](https://storybook.js.org/). This is just a button with a few differing styles.
+Just a simple Storybook example. This is me checking out [Storybook](https://storybook.js.org/). This is just a button, input and card with a few differing styles.
 
-You can load up the mostly default React app and see a terrible looking button was added.
+You can load up the mostly default React app and see a terrible looking button and input was added.
 
-Loading up Storybook shows the same button component, but isolated from the rest of the app.
+Loading up Storybook shows the same components, but isolated from the rest of the app.
 
-Editing `components/Atoms/Button/buttonStyle.css` will change the button for the story and the button in `App.js`.
+There is a alert card component containing the other two components.
+
+These are in Atomic design organziation.
+
+Editing `components/Atoms/Button/buttonStyle.css` will change the button for the story and the button in `App.js`. This is true for all the components.
 
 ## Required
 
@@ -45,7 +49,7 @@ then
 https://storybook.js.org/addons/storybook-dark-mode toogle in storybook
 
 
-### There add ons to look into
+### The add ons to look into
 
 https://storybook.js.org/addons/storybook-addon-designs
 
