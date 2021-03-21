@@ -47,14 +47,3 @@ then
 ### There are some add ons installed this repo
 
 https://storybook.js.org/addons/storybook-dark-mode toogle in storybook
-
-
-### The add ons to look into
-
-https://storybook.js.org/addons/storybook-addon-designs
-
-https://storybook.js.org/addons/storybook-addon-xd-designs
-
-https://storybook.js.org/addons/@storybook/addon-links
-
-
