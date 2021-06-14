@@ -1,12 +1,12 @@
 import React from 'react';
-import Input from './Input';
+import Radio from './Radio';
 
 // Input variations below coraspond to classes in .css
 
 export default {
-    component: Input,
-    title: 'Design System/Atoms/Inputs',
-    parameters: {
+  component: Radio,
+  title: 'Design System/Atoms/Radio',
+  parameters: {
     docs: {
       page: () => (
         <>
@@ -14,10 +14,10 @@ export default {
         </>
       ),
     },
-  }
+}
 };
 
-const Template = args => <Input {...args} />;
+const Template = args => <Radio {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

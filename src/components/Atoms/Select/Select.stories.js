@@ -1,12 +1,12 @@
 import React from 'react';
-import Input from './Input';
+import Select from './Select';
 
 // Input variations below coraspond to classes in .css
 
 export default {
-    component: Input,
-    title: 'Design System/Atoms/Inputs',
-    parameters: {
+  component: Select,
+  title: 'Design System/Atoms/Select',
+  parameters: {
     docs: {
       page: () => (
         <>
@@ -14,10 +14,10 @@ export default {
         </>
       ),
     },
-  }
+}
 };
 
-const Template = args => <Input {...args} />;
+const Template = args => <Select {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

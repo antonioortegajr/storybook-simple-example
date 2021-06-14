@@ -1,12 +1,12 @@
 import React from 'react';
-import Input from './Input';
+import Typography from './Typography';
 
 // Input variations below coraspond to classes in .css
 
 export default {
-    component: Input,
-    title: 'Design System/Atoms/Inputs',
-    parameters: {
+  component: Typography,
+  title: 'Design System/Particles/Typography',
+  parameters: {
     docs: {
       page: () => (
         <>
@@ -14,10 +14,10 @@ export default {
         </>
       ),
     },
-  }
+}
 };
 
-const Template = args => <Input {...args} />;
+const Template = args => <Typography {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

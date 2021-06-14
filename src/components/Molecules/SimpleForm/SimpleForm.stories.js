@@ -1,14 +1,14 @@
 import React from 'react';
-import AlertCard from './AlertCard';
+import SimpleForm from './SimpleForm';
 
 // button variations below coraspond to classes in .css
 
 export default {
-  component: AlertCard,
-  title: 'Design System/Molecules/AlertCard',
+  component: SimpleForm,
+  title: 'Design System/Molecules/SimpleForm',
 };
 
-const Template = args => <AlertCard {...args} />;
+const Template = args => <SimpleForm {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
